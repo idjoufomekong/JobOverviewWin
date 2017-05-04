@@ -28,6 +28,17 @@ namespace JobOverview.Properties {
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=IDJOU17-DE\\IP08R2;Initial Catalog=JobOverView;Integrated Security=Tru" +
             "e")]
+        public string JobOverViewConnectionString2 {
+            get {
+                return ((string)(this["JobOverViewConnectionString2"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MGOLLAIN17-DE\\IP08R2;Initial Catalog=JobOverview;Integrated Security=" +
+            "True")]
         public string JobOverViewConnectionString {
             get {
                 return ((string)(this["JobOverViewConnectionString"]));

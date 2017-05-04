@@ -7245,7 +7245,7 @@ SELECT CodeActivite, Libelle, Annexe FROM jo.Activite WHERE (CodeActivite = @Cod
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7588,7 +7588,7 @@ SELECT MetierCodeMetier, ActiviteCodeActivite FROM jo.ActiviteMetier WHERE (Acti
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7939,7 +7939,7 @@ SELECT CodeEquipe, CodeService, CodeFiliere, Nom FROM jo.Equipe WHERE (CodeEquip
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8329,7 +8329,7 @@ SELECT CodeEquipe, CodeService, CodeFiliere, Nom FROM jo.Equipe WHERE (CodeEquip
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8674,7 +8674,7 @@ SELECT CodeLogiciel, Nom, CodeFiliere FROM jo.Logiciel WHERE (CodeLogiciel = @Co
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9043,7 +9043,7 @@ SELECT CodeMetier, CodeService, Libelle FROM jo.Metier WHERE (CodeMetier = @Code
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9424,7 +9424,7 @@ SELECT CodeModule, CodeLogiciel, Libelle, CodeModuleParent, CodeLogicielParent F
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9870,7 +9870,7 @@ SELECT Login, Nom, Prenom, CodeEquipe, CodeMetier, Manager, TauxProductivite FRO
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10325,7 +10325,7 @@ SELECT NumeroRelease, NumeroVersion, CodeLogiciel, DateSetup FROM jo.Release WHE
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10653,7 +10653,7 @@ SELECT NumeroRelease, NumeroVersion, CodeLogiciel, DateSetup FROM jo.Release WHE
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11013,7 +11013,7 @@ SELECT IdTache, Libelle, Annexe, CodeActivite, Login, Description FROM jo.Tache 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11439,7 +11439,7 @@ SELECT IdTache, Numero, DureePrevue, DureeRestanteEstimee, CodeModule, CodeLogic
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11832,7 +11832,7 @@ SELECT IdTache, DateTravail, Heures, TauxProductivite FROM jo.Travail WHERE (Dat
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -12160,7 +12160,7 @@ SELECT NumeroVersion, CodeLogiciel, Millesime, DateOuverture, DateSortiePrevue, 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString;
+            this._connection.ConnectionString = global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -12396,7 +12396,7 @@ SELECT NumeroVersion, CodeLogiciel, Millesime, DateOuverture, DateSortiePrevue, 
         private void InitCommandCollection() {
             this._commandCollection = new global::System.Data.IDbCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Connection = new global::System.Data.SqlClient.SqlConnection(global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Connection = new global::System.Data.SqlClient.SqlConnection(global::JobOverview.Properties.Settings.Default.JobOverViewConnectionString2);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).CommandText = "dbo.usp_DropTablesAndFKInSchema";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));

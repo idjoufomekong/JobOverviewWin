@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using JobOverview.POCO;
+using JobOverview.DAL;
 
 namespace JobOverview
 {
@@ -9,14 +11,18 @@ namespace JobOverview
 		// Collection des fenêtres filles
 		public Dictionary<string, Form> ChildForms { get; private set; }
 
-		public MDIForm()
+        public MDIForm()
 		{
 			InitializeComponent();
 			ChildForms = new Dictionary<string, Form>();
+            ListeDonnees.ListeLogiciel = new List<Logiciel>();
+            ListeDonnees.ListeLogiciel = DALLogiciel.GetLogiciel();
 
-			// TODO : Branchement des menus
-			// menu1.Click += (object sender, EventArgs e) => ShowChild("MDIApp.Form1");
-		}
+            mnuVersion.Click += (object sender, EventArgs e) => ShowChild("JobOverview.FORM.VersionForm");
+
+            // TODO : Branchement des menus
+            // menu1.Click += (object sender, EventArgs e) => ShowChild("MDIApp.Form1");
+        }
 
 		// Affichage d'une fenêtre fille
 		private void ShowChild(string name)
@@ -68,5 +74,6 @@ namespace JobOverview
 			if (ChildForms.Count == 0) menuWindows.Visible = false;
 		}
 
-	}
+
+    }
 }
